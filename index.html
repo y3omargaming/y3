@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Y3OMARGAMING</title>
+  <link rel="icon" type="image/png" href="assets/me.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <div class="skyline skyline-left" aria-hidden="true"></div>
+    <div class="skyline skyline-right" aria-hidden="true"></div>
+
+    <header class="masthead">
+      <p class="eyebrow">Elite Gaming Identity</p>
+      <img src="assets/logo.png" class="site-logo" alt="Y3OMARGAMING">
+      <p class="subtitle">Fire Mode Social Select</p>
+    </header>
+
+    <section class="arcade-board" aria-labelledby="hero-title">
+      <div class="top-light" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="board-frame">
+        <div class="board-title-wrap">
+          <h1 id="hero-title" class="board-title">Battle Socials</h1>
+        </div>
+
+        <div class="selector-row">
+          <button class="arrow arrow-left" id="prevBtn" type="button" aria-label="Previous account">
+            <span></span>
+          </button>
+
+          <div class="hero-card">
+            <div class="hero-portrait">
+              <img id="heroImage" src="" alt="">
+            </div>
+          </div>
+
+          <button class="arrow arrow-right" id="nextBtn" type="button" aria-label="Next account">
+            <span></span>
+          </button>
+        </div>
+
+        <div class="nameplate">
+          <div class="nameplate-header">
+            <h2 id="heroName"></h2>
+          </div>
+        </div>
+
+        <div class="stats-layout">
+          <div class="stats-box">
+            <div class="stat-row">
+              <span class="stat-label">Reach</span>
+              <div class="stat-pips" id="speedPips"></div>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Posts</span>
+              <div class="stat-pips" id="jumpPips"></div>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Hype</span>
+              <div class="stat-pips" id="attackPips"></div>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <div class="info-tag">Info</div>
+            <p id="heroDesc"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="support-row">
+      <button class="pixel-button review-button" id="reviewBtn" type="button">Open Profile</button>
+    </div>
+
+    <footer class="control-deck">
+      <p class="copyright">(C) 2026 Y3OMARGAMING</p>
+    </footer>
+  </main>
+
+  <audio id="clickSound" src="assets/click.wav" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

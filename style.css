@@ -83,7 +83,7 @@ button {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.74)),
     radial-gradient(circle at center, rgba(255, 190, 85, 0.22), transparent 26%),
-    url("assets/bg.PNG") center/cover no-repeat;
+    url("assets/bg.png") center/cover no-repeat;
   mix-blend-mode: normal;
 }
 
